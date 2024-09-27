@@ -1,6 +1,6 @@
 # BlazorWebAPICall
 
-Blazor frontend call to backend (.net web api) for communication and handling data.
+Blazor frontend call to backend (.net web api) for communication and handling data. Web Api Project is from https://github.com/NikollbibajNoah/WebAPIWithLiteDB 
 
 ## Note
 - The target (url) must be changed for other projects!
