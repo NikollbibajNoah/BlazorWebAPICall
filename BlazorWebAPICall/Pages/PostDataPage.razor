@@ -1,0 +1,33 @@
+﻿@page "/post"
+@inject IDataService Service
+
+<h3>Post Data</h3>
+
+<div class="create">
+    <label>Item Name</label>
+    <input type="text" @bind="CurrentItem.Name" />
+
+    <label>Item Description</label>
+    <input type="text" @bind="CurrentItem.Description" />
+
+    <label>Item Price</label>
+    <input type="number" @bind="CurrentItem.Price" />
+    <button onclick="@UpdateItem">Create Item</button>
+
+    <span class="info"><b>Info: <br /></b> @Message</span>
+</div>
+
+@code {
+
+    private string Endpoint = "Store";
+    public StoreItem CurrentItem = new StoreItem();
+
+    public string Message { get; set; } = "";
+
+    public async Task UpdateItem()
+    {
+        var temp = await Service.CreateStoreItem(Endpoint, CurrentItem);
+
+        Message = temp.ToString();
+    }
+}

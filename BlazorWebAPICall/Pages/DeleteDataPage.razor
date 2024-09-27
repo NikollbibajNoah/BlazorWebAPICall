@@ -1,0 +1,33 @@
+﻿@page "/delete"
+@inject IDataService Service;
+
+<h3>Delete Data</h3>
+
+<div class="user-input">
+    <label>Item at pos</label>
+    <input type="number" @bind="CurrentId"class="id-input" />
+    <button onclick="@DeleteItem">Delete Item</button>
+</div>
+
+<div>
+    <p>Deleted Item: </p>
+    <Item Data="DeletedItem" />
+</div>
+
+@code {
+    private string Endpoint = "Store";
+
+    public int CurrentId { get; set; }
+
+    public StoreItem DeletedItem = new StoreItem();
+
+    public async Task DeleteItem()
+    {
+        var temp = await Service.DeleteStoreItem(Endpoint, CurrentId);
+
+        if (temp != null)
+        {
+            DeletedItem = temp;
+        }
+    }
+}

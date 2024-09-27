@@ -1,0 +1,32 @@
+﻿<style>
+    .item {
+        margin: 16px 0;
+        border-radius: 16px;
+        box-shadow: 4px 4px 12px gray;
+        padding: 12px;
+        list-style-type: none;
+    }
+
+    .container div {
+    }
+
+    .id-wrapper {
+        float: right;
+    }
+</style>
+
+
+<li class="item">
+    <div class="container">
+        <div><span><b>Name:</b> @Data.Name</span><span class="id-wrapper"><b>Id:</b> @Data.Id</span></div>
+        <div><b>Description:</b> @Data.Description</div>
+        <div><b>Price:</b> @Data.Price USD</div>
+    </div>
+</li>
+
+@code {
+
+    [Parameter]
+    public StoreItem Data { get; set; }
+
+}

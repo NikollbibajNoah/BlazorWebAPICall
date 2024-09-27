@@ -1,0 +1,52 @@
+﻿@page "/get"
+@inject IDataService Service
+
+<h3>Get Data</h3>
+
+
+<div class="read">
+    <div>
+        <label>Select By Id</label>
+        <input type="text" @bind="CurrentId" />
+        <button onclick="@GetItemById">Load Item</button>
+    </div>
+
+    <div class="item-result">
+        <h5>Item Found:</h5>
+        <div>
+            <Item Data="@LoadedItem" />
+        </div>
+    </div>
+</div>
+
+<div>
+    <h5>All:</h5>
+    <ul class="all-list">
+        @foreach (var item in Items)
+        {
+        <Item Data="@item" />
+        }
+    </ul>
+</div>
+
+@code {
+
+    private string Endpoint = "Store";
+
+    public StoreItem[] Items = [];
+    public int CurrentId { get; set; }
+    public StoreItem LoadedItem { get; set; } = new StoreItem();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Items = await Service.GetStoreItems(Endpoint);
+    }
+
+    public async Task GetItemById()
+    {
+        LoadedItem = new StoreItem();
+        if (CurrentId == 0 || CurrentId > Items.Length) return;
+
+        LoadedItem = await Service.GetStoreItemById(Endpoint, CurrentId);
+    }
+}

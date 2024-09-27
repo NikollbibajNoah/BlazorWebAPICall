@@ -1,0 +1,63 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorWebAPICall
+build_property.RootNamespace = BlazorWebAPICall
+build_property.ProjectDir = C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Components/Item.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/DeleteDataPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlRGF0YVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rb7vb2aefv
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hdqw8i8ves
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/GetDataPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0RGF0YVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jwnd0412yx
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/PostDataPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdERhdGFQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-4ow8zq7mpu
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/PutDataPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHV0RGF0YVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2oepdjljby

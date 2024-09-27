@@ -1,0 +1,42 @@
+﻿@page "/put"
+@inject IDataService Service
+
+<h3>Put Data</h3>
+
+<div class="user-input">
+    <label>Item at pos</label>
+    <input type="number" @bind="CurrentId"class="id-input" />
+
+    <label>Item Name</label>
+    <input type="text" @bind="CurrentItem.Name"/>
+
+    <label>Item Description</label>
+    <input type="text" @bind="CurrentItem.Description" />
+
+    <label>Item Price</label>
+    <input type="text" @bind="CurrentItem.Price" />
+
+    <button onclick="@UpdateItem">Update Item</button>
+
+    <span class="info"><b>Info:</b> @Message</span>
+</div>
+
+@code {
+    private string Endpoint = "Store";
+
+    public int CurrentId { get; set; }
+    public StoreItem CurrentItem = new StoreItem();
+
+    public string Message { get; set; } = "";
+
+    public async Task UpdateItem()
+    {
+
+        ///Make Sure Id is automatically set
+        CurrentItem.Id = CurrentId;
+
+        var temp = await Service.UpdateStoreItem(Endpoint, CurrentId, CurrentItem);
+
+        Message = temp.ToString();
+    }
+}
