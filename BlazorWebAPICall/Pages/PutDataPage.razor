@@ -4,22 +4,41 @@
 <h3>Put Data</h3>
 
 <div class="user-input">
-    <label>Item at pos</label>
-    <input type="number" @bind="CurrentId"class="id-input" />
 
-    <label>Item Name</label>
-    <input type="text" @bind="CurrentItem.Name"/>
+    <div class="input id-input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Id">
+            <RadzenNumeric @bind-Value="@CurrentId" Step="1" />
+        </RadzenFormField>
+    </div>
 
-    <label>Item Description</label>
-    <input type="text" @bind="CurrentItem.Description" />
+    <div class="divider">
 
-    <label>Item Price</label>
-    <input type="text" @bind="CurrentItem.Price" />
+    </div>
+    
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Name">
+            <RadzenTextBox @bind-Value="@CurrentItem.Name" />
+        </RadzenFormField>
+    </div>
 
-    <button onclick="@UpdateItem">Update Item</button>
-
-    <span class="info"><b>Info:</b> @Message</span>
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Description">
+            <RadzenTextBox @bind-Value="@CurrentItem.Description" />
+        </RadzenFormField>
+    </div>
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Price">
+            <RadzenNumeric @bind-Value="@CurrentItem.Price" Step="0.5" />
+        </RadzenFormField>
+    </div>
+    
+    <div class="button">
+        <RadzenButton Style="width: 100%;" Click=@UpdateItem Text="Update Item" />
+    </div>
 </div>
+
+<span class="info"><b>Info:</b> @Message</span>
+
 
 @code {
     private string Endpoint = "Store";

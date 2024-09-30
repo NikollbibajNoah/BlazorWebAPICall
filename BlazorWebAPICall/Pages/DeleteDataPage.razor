@@ -4,14 +4,27 @@
 <h3>Delete Data</h3>
 
 <div class="user-input">
-    <label>Item at pos</label>
-    <input type="number" @bind="CurrentId"class="id-input" />
-    <button onclick="@DeleteItem">Delete Item</button>
+    <div class="input id-input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Id">
+            <RadzenNumeric @bind-Value="@CurrentId" Step="1" />
+        </RadzenFormField>
+    </div>
+
+    <div class="button">
+        <RadzenButton Style="width: 100%;" Click=@DeleteItem Text="Delete Item" />
+    </div>
 </div>
 
 <div>
-    <p>Deleted Item: </p>
-    <Item Data="DeletedItem" />
+    <h5>Deleted Item: </h5>
+
+    @if (DeletedItem != null)
+    {
+        <Item Data="DeletedItem" />
+    } else
+    {
+        <p>No deleted items found...</p>
+    }
 </div>
 
 @code {
@@ -19,7 +32,7 @@
 
     public int CurrentId { get; set; }
 
-    public StoreItem DeletedItem = new StoreItem();
+    public StoreItem DeletedItem { get; set; } = null;
 
     public async Task DeleteItem()
     {

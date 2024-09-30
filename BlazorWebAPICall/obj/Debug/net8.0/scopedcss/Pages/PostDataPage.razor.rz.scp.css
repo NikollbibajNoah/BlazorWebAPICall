@@ -14,3 +14,12 @@ input[b-4ow8zq7mpu] {
     margin: 12px 0;
     display: block;
 }
+
+.input[b-4ow8zq7mpu] {
+    margin: 12px 0;
+    max-width: 150px;
+}
+
+.button[b-4ow8zq7mpu] {
+    width: 150px;
+}

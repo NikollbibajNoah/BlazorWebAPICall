@@ -1056,3 +1056,15 @@ C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\compressed\z
 C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\scopedcss\Pages\GetDataPage.razor.rz.scp.css
 C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\scopedcss\Pages\PostDataPage.razor.rz.scp.css
 C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\scopedcss\Pages\PutDataPage.razor.rz.scp.css
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\wwwroot\_framework\Radzen.Blazor.wasm
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Dynamic.Core.wasm
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Dynamic.Core.wasm.gz
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\wwwroot\_framework\Radzen.Blazor.wasm.gz
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\Radzen.Blazor.dll
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\BlazorWebAPICall.sourcelink.json
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\webcil\Radzen.Blazor.wasm
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\webcil\System.Linq.Dynamic.Core.wasm
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\compressed\xayf577e12.gz
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\compressed\difg2m3obf.gz
+C:\Source\Blazor\BlazorWebAPICall\BlazorWebAPICall\obj\Debug\net8.0\scopedcss\Pages\DeleteDataPage.razor.rz.scp.css

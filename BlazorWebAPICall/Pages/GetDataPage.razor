@@ -6,16 +6,32 @@
 
 <div class="read">
     <div>
-        <label>Select By Id</label>
-        <input type="text" @bind="CurrentId" />
-        <button onclick="@GetItemById">Load Item</button>
+        <div class="controls">
+            <div class="input id-input">
+                <RadzenFormField AllowFloatingLabel="false" Text="Id">
+                    <RadzenNumeric @bind-Value="@CurrentId" Step="1" />
+                </RadzenFormField>
+            </div>
+
+            <div class="button">
+                <RadzenButton Style="width: 100%;" Click=@GetItemById Text="Load Item" />
+            </div>
+        </div>
     </div>
 
     <div class="item-result">
         <h5>Item Found:</h5>
-        <div>
-            <Item Data="@LoadedItem" />
-        </div>
+
+        @if (LoadedItem != null)
+        {
+            <div>
+                <Item Data="@LoadedItem" />
+            </div>
+        } else
+        {
+            <p>No individual item found...</p>
+        }
+
     </div>
 </div>
 
@@ -35,7 +51,7 @@
 
     public StoreItem[] Items = [];
     public int CurrentId { get; set; }
-    public StoreItem LoadedItem { get; set; } = new StoreItem();
+    public StoreItem LoadedItem { get; set; } = null;
 
     protected override async Task OnInitializedAsync()
     {
@@ -44,7 +60,6 @@
 
     public async Task GetItemById()
     {
-        LoadedItem = new StoreItem();
         if (CurrentId == 0 || CurrentId > Items.Length) return;
 
         LoadedItem = await Service.GetStoreItemById(Endpoint, CurrentId);

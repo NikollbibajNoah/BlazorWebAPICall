@@ -2,7 +2,7 @@ body[b-2oepdjljby] {
 }
 
 .user-input[b-2oepdjljby] {
-    max-width: 400px;
+    display: inline-block;
 }
 
 input[b-2oepdjljby] {
@@ -10,11 +10,24 @@ input[b-2oepdjljby] {
     margin-bottom: 12px;
 }
 
-.id-input[b-2oepdjljby] {
-    width: 50px;
-}
-
 .info[b-2oepdjljby] {
     display: block;
     margin-top: 32px;
+}
+
+.input[b-2oepdjljby] {
+    max-width: 150px;
+    margin: 12px 0;
+}
+
+.divider[b-2oepdjljby] {
+    border-bottom: 1px solid gray;
+}
+
+.id-input[b-2oepdjljby] {
+    max-width: 75px;
+}
+
+.button[b-2oepdjljby] {
+    max-width: 150px;
 }

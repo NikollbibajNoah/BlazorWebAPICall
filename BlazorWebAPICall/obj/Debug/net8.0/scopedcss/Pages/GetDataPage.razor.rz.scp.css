@@ -8,3 +8,16 @@ body[b-jwnd0412yx] {
 .item-result[b-jwnd0412yx] {
     margin: 16px 0;
 }
+
+.header[b-jwnd0412yx] {
+    margin-bottom: 10px;
+}
+
+.input[b-jwnd0412yx] {
+    max-width: 75px;
+    margin: 12px 0;
+}
+
+.button[b-jwnd0412yx] {
+    max-width: 150px;
+}

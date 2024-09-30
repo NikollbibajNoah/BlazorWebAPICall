@@ -4,15 +4,27 @@
 <h3>Post Data</h3>
 
 <div class="create">
-    <label>Item Name</label>
-    <input type="text" @bind="CurrentItem.Name" />
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Name">
+            <RadzenTextBox @bind-Value="@CurrentItem.Name" />
+        </RadzenFormField>
+    </div>
+    
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Description">
+            <RadzenTextBox @bind-Value="@CurrentItem.Description" />
+        </RadzenFormField>
+    </div>
 
-    <label>Item Description</label>
-    <input type="text" @bind="CurrentItem.Description" />
+    <div class="input">
+        <RadzenFormField AllowFloatingLabel="false" Text="Item Price">
+            <RadzenNumeric @bind-Value="@CurrentItem.Price" Step="0.5" />
+        </RadzenFormField>
+    </div>    
 
-    <label>Item Price</label>
-    <input type="number" @bind="CurrentItem.Price" />
-    <button onclick="@UpdateItem">Create Item</button>
+    <div class="button">
+        <RadzenButton Style="width: 100%;" Click=@UpdateItem Text="Create Item" />
+    </div>
 
     <span class="info"><b>Info: <br /></b> @Message</span>
 </div>

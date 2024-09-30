@@ -14,3 +14,12 @@ input {
     margin: 12px 0;
     display: block;
 }
+
+.input {
+    margin: 12px 0;
+    max-width: 150px;
+}
+
+.button {
+    width: 150px;
+}

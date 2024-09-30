@@ -160,6 +160,23 @@ main[b-rb7vb2aefv] {
         overflow-y: auto;
     }
 }
+/* /Pages/DeleteDataPage.razor.rz.scp.css */
+.user-input[b-h0snbqs0be] {
+    margin-bottom: 32px;
+}
+
+.input[b-h0snbqs0be] {
+    max-width: 150px;
+    margin: 12px 0;
+}
+
+.id-input[b-h0snbqs0be] {
+    max-width: 75px;
+}
+
+.button[b-h0snbqs0be] {
+    max-width: 150px;
+}
 /* /Pages/GetDataPage.razor.rz.scp.css */
 body[b-jwnd0412yx] {
 }
@@ -170,6 +187,19 @@ body[b-jwnd0412yx] {
 
 .item-result[b-jwnd0412yx] {
     margin: 16px 0;
+}
+
+.header[b-jwnd0412yx] {
+    margin-bottom: 10px;
+}
+
+.input[b-jwnd0412yx] {
+    max-width: 75px;
+    margin: 12px 0;
+}
+
+.button[b-jwnd0412yx] {
+    max-width: 150px;
 }
 /* /Pages/PostDataPage.razor.rz.scp.css */
 body[b-4ow8zq7mpu] {
@@ -188,12 +218,21 @@ input[b-4ow8zq7mpu] {
     margin: 12px 0;
     display: block;
 }
+
+.input[b-4ow8zq7mpu] {
+    margin: 12px 0;
+    max-width: 150px;
+}
+
+.button[b-4ow8zq7mpu] {
+    width: 150px;
+}
 /* /Pages/PutDataPage.razor.rz.scp.css */
 body[b-2oepdjljby] {
 }
 
 .user-input[b-2oepdjljby] {
-    max-width: 400px;
+    display: inline-block;
 }
 
 input[b-2oepdjljby] {
@@ -201,11 +240,24 @@ input[b-2oepdjljby] {
     margin-bottom: 12px;
 }
 
-.id-input[b-2oepdjljby] {
-    width: 50px;
-}
-
 .info[b-2oepdjljby] {
     display: block;
     margin-top: 32px;
+}
+
+.input[b-2oepdjljby] {
+    max-width: 150px;
+    margin: 12px 0;
+}
+
+.divider[b-2oepdjljby] {
+    border-bottom: 1px solid gray;
+}
+
+.id-input[b-2oepdjljby] {
+    max-width: 75px;
+}
+
+.button[b-2oepdjljby] {
+    max-width: 150px;
 }

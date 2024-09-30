@@ -1,0 +1,16 @@
+﻿.user-input {
+    margin-bottom: 32px;
+}
+
+.input {
+    max-width: 150px;
+    margin: 12px 0;
+}
+
+.id-input {
+    max-width: 75px;
+}
+
+.button {
+    max-width: 150px;
+}

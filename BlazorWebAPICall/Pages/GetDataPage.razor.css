@@ -8,3 +8,16 @@
 .item-result {
     margin: 16px 0;
 }
+
+.header {
+    margin-bottom: 10px;
+}
+
+.input {
+    max-width: 75px;
+    margin: 12px 0;
+}
+
+.button {
+    max-width: 150px;
+}

@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/DeleteDataPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlRGF0YVBhZ2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -49,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope = b-rb7vb2aefv
 [C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hdqw8i8ves
+
+[C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/DeleteDataPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlRGF0YVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-h0snbqs0be
 
 [C:/Source/Blazor/BlazorWebAPICall/BlazorWebAPICall/Pages/GetDataPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0RGF0YVBhZ2UucmF6b3I=
