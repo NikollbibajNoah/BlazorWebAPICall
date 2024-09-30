@@ -12,4 +12,4 @@ Blazor frontend call to backend (.net web api) for communication and handling da
 - Build configuration must be applied to start for both applications!
 ![image](https://github.com/user-attachments/assets/dc6c3a0f-4f3c-4ae0-af6c-240d5bf09912)
 
-- CORS has to be enables on the API (Backend) side!
+- CORS has to be enabled on the API (Backend) side!
